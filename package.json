@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Beer pairing application for fun",
   "main": "main.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClarkGH/beerMe.git"
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ClarkGH/beerMe/issues"
   },
-  "homepage": "https://github.com/ClarkGH/beerMe#readme"
+  "homepage": "https://github.com/ClarkGH/beerMe#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
