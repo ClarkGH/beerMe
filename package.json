@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ClarkGH/beerMe#readme",
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
   }
 }
