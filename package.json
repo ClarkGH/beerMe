@@ -18,10 +18,12 @@
     "url": "https://github.com/ClarkGH/beerMe/issues"
   },
   "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
     "test": "mocha"
   },
   "homepage": "https://github.com/ClarkGH/beerMe#readme",
   "devDependencies": {
+    "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "chai": "^4.1.0",
     "gulp": "^3.9.1",
@@ -32,6 +34,7 @@
   },
   "dependencies": {
     "express": "^4.15.3",
+    "mongodb": "^2.2.30",
     "react": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.2"
