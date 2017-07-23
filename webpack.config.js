@@ -12,7 +12,7 @@ module.exports = {
         {
           test: /\.js$/,
           loader: 'babel-loader',
-          query: { presets: ['es2015'] }
+          query: { presets: ['react', 'es2015', 'stage-1'] }
         }
       },
     stats: { colors: true },
