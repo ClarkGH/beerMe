@@ -1,3 +1,7 @@
 {
-  presets: ['es2015', 'react']
+  presets: ['es2015', 'react'],
+  "ignore": [
+    "/test/*",
+    "/node_modules/*"
+  ]
 }
