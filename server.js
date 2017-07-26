@@ -1,5 +1,5 @@
 const express = require('express'),
-  path require('path'),
+  path = require('path'),
   app = express(),
   port = 8080;
 
@@ -14,7 +14,11 @@ app.set('view engine', 'ejs');
 
 //homepage
 app.get('/', function (req, res) {
-  res.send('index.html rendered');
+  res.send('index.ejs');
 });
 
 //404 error handling
+//code here
+
+app.listen(port);
+console.log('Server is running on port: ' + port);
