@@ -2,7 +2,7 @@
   "name": "beerme",
   "version": "0.0.1",
   "description": "Beer pairing application for fun",
-  "main": "main.js",
+  "main": "/src/js/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClarkGH/beerMe.git"
