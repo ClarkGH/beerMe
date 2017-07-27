@@ -9,9 +9,6 @@ app.set('views', path.join(__dirname, '/views'));
 //static file path
 app.use(express.static(path.join(__dirname, 'public')));
 
-//ejs templating
-app.set('view engine', 'ejs');
-
 //homepage
 app.get('/', function (req, res) {
   res.render('index');
