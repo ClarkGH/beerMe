@@ -4,7 +4,7 @@ const express = require('express'),
   port = 8080;
 
 //view path
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/views'));
 
 //static file path
 app.use(express.static(path.join(__dirname, 'public')));
