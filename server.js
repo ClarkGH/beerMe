@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 
 //homepage
 app.get('/', function (req, res) {
-  res.send('index.ejs');
+  res.render('index');
 });
 
 //404 error handling
