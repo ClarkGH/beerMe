@@ -1,2 +1,1 @@
-#Beer Me
-##A beer pairing application
+Nothing to see here just yet
