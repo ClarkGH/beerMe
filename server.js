@@ -1,15 +1,16 @@
+'use strict';
+
 const express = require( 'express' ),
   app = express(),
-  path = require( 'path' )
+  path = require( 'path' ),
+  VIEWS = path.join(__dirname, 'views'),
   port = 8080;
 
 // views engine
-app.set('views', path.join(__dirname, 'views'));
-
 app.get('/', function ( req, res ) {
-  res.render( 'index.html' )
+  res.sendFile( 'index.html', { root : VIEWS } );
 });
 
 app.listen( port, function () {
-  console.log( 'running on port: ' + port )
+  console.log( 'running on port: ' + port );
 })
