@@ -6,6 +6,9 @@ const express = require( 'express' ),
   VIEWS = path.join(__dirname, 'views'),
   port = 8080;
 
+
+app.use(express.static('build'));
+
 // views engine
 app.get('/', function ( req, res ) {
   res.sendFile( 'index.html', { root : VIEWS } );
