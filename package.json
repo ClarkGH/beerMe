@@ -18,7 +18,7 @@
     "url": "https://github.com/ClarkGH/beerMe/issues"
   },
   "scripts": {
-    "babel": "babel --presets es2015 public/js/main.js -o build/main.bundle.js",
+    "babel": "babel --presets es2015 public/js/main.js -o build/bundle.js",
     "webpack": "webpack"
   },
   "homepage": "https://github.com/ClarkGH/beerMe#readme",
