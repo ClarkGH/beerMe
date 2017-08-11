@@ -32,6 +32,8 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
